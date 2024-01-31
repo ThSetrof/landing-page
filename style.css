@@ -152,3 +152,39 @@ body{
   font-size: 24px;
   align-self: flex-end;
 }
+
+.action-section{
+  padding: 48px 128px;
+  background-color: #3882f6;
+  margin: 48px 128px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.call{
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.message{
+  color: #f9faf8;
+}
+
+.action-section button{
+  padding: 12px 24px;
+  background-color: #f9faf8;
+  color: #3882f6;
+  font-weight: 800;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 12px;
+  border: 4px solid transparent;
+
+}
+
+.action-section button:hover{
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 4px solid #f9faf8;
+}
