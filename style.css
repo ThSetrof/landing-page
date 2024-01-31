@@ -2,10 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Fira code';
 }
 
 body{
   height: 100vh;
+  width: 100vw;
+
 }
 
 .header{
@@ -24,8 +27,69 @@ body{
   gap: 24px;
 }
 
+.header h1{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .header ul a{
   color: #e5e7eb;
   font-weight: 600;
   text-decoration: none;
+  font-size: 18px;
+
 }
+
+.hero-section{
+  background-color: #1f2937;
+  display: flex;
+  height: 400px;
+  gap: 36px;
+  overflow: hidden;
+  padding: 24px 128px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  
+}
+
+.left-section,
+.right-section{
+  width: 500px;
+}
+
+
+.hero-section h2{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 17px;
+}
+
+.hero-section button{
+  width: fit-content;
+  padding: 12px 48px;
+  background-color: #3882f6;
+  border-radius: 12px;
+  border: none;
+  color: #f9faf8;
+  font-weight: 700;
+  transition: all .15s ease-in;
+}
+
+.hero-section button:hover{
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+.hero-section p{
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+
